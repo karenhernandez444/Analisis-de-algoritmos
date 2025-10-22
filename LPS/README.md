@@ -1,1 +1,4 @@
-
+Este programa en Python compara dos métodos para encontrar la subcadena palindrómica más larga (LPS) en una cadena de texto: uno basado en Divide y Vencerás y otro en Programación Dinámica. 
+El primero expande desde cada posible centro de la cadena, evaluando palíndromos de longitud impar y par, mientras que el segundo construye una matriz que indica si cada subcadena es palíndromo, reutilizando resultados previos para evitar cálculos repetidos.
+Ambos métodos se prueban con cadenas de distintos tamaños, generadas aleatoriamente, algunas con palíndromos grandes incorporados. Se mide el tiempo de ejecución de cada enfoque y se valida que ambos entreguen el mismo resultado. Los datos se organizan en una tabla que muestra los tiempos y el ratio de eficiencia entre los métodos.
+Finalmente, se genera una gráfica que muestra cómo varía el rendimiento según el tamaño de la entrada. El programa concluye con un resumen que indica cuál método fue más eficiente en promedio. Esta comparación permite visualizar las diferencias prácticas entre dos enfoques con la misma complejidad teórica, útil para análisis algorítmico y aplicaciones en seguridad informática.
